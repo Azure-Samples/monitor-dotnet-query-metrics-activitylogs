@@ -1,10 +1,10 @@
 ---
 services: Monitor
-platforms: .Net
+platforms: dotnet
 author: hovsepm
 ---
 
-# Getting Started with Monitor - Query Metrics And Activity Logs - in .Net #
+# Getting metrics and activity logs for a resource. #
 
           This sample shows examples of retrieving metrics and activity logs for Storage Account.
            - List all metric definitions available for a storage account
@@ -19,7 +19,7 @@ author: hovsepm
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/monitor-dotnet-query-metrics-activitylogs.git
 
