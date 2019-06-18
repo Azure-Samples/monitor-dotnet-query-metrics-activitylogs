@@ -24,10 +24,10 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
     git clone https://github.com/Azure-Samples/monitor-dotnet-query-metrics-activitylogs.git
 
     cd monitor-dotnet-query-metrics-activitylogs
-
-    dotnet restore
-
-    dotnet run
+  
+    dotnet build
+    
+    bin\Debug\net452\QueryMetricsAndActivityLogs.exe
 
 ## More information ##
 
