@@ -1,7 +1,9 @@
 ---
 page_type: sample
-languages: java
-products: azure
+languages:
+- java
+products:
+- azure
 services: Monitor
 platforms: dotnet
 author: yaohaizh
@@ -27,9 +29,9 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
     git clone https://github.com/Azure-Samples/monitor-dotnet-query-metrics-activitylogs.git
 
     cd monitor-dotnet-query-metrics-activitylogs
-  
+
     dotnet build
-    
+
     bin\Debug\net452\QueryMetricsAndActivityLogs.exe
 
 ## More information ##
