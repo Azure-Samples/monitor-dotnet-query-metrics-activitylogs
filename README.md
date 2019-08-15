@@ -4,20 +4,20 @@ languages:
 - csharp
 products:
 - azure
-services: Monitor
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Monitor
+- platforms: dotnet
 ---
 
 # Getting metrics and activity logs for a resource. #
 
-          This sample shows examples of retrieving metrics and activity logs for Storage Account.
-           - List all metric definitions available for a storage account
-           - Retrieve and show metrics for the past 7 days for Transactions where
-             - Api name was 'PutBlob' and
-             - response type was 'Success' and
-             - Geo type was 'Primary'
-           -  Retrieve and show all activity logs for the past 7 days for the same Storage account.
+ This sample shows examples of retrieving metrics and activity logs for Storage Account.
+  - List all metric definitions available for a storage account
+  - Retrieve and show metrics for the past 7 days for Transactions where
+    - Api name was 'PutBlob' and
+    - response type was 'Success' and
+    - Geo type was 'Primary'
+  -  Retrieve and show all activity logs for the past 7 days for the same Storage account.
 
 
 ## Running this Sample ##
