@@ -7,9 +7,10 @@ products:
 extensions:
 - services: Monitor
 - platforms: dotnet
+description: "This sample shows examples of retrieving metrics and activity logs for Storage Account."
 ---
 
-# Getting metrics and activity logs for a resource. #
+# Getting metrics and activity logs for a resource
 
  This sample shows examples of retrieving metrics and activity logs for Storage Account.
   - List all metric definitions available for a storage account
