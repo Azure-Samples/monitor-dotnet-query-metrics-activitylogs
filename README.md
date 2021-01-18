@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: Monitor
-- platforms: dotnet
+  services: Monitor
+  platforms: dotnet
 ---
 
 # Getting metrics and activity logs for a resource. #
